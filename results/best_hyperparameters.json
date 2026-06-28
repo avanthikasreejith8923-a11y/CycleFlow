@@ -1,0 +1,22 @@
+{
+  "Ridge": {
+    "alpha": 10
+  },
+  "Lasso": {
+    "alpha": 0.5
+  },
+  "Gradient Boosting": {
+    "subsample": 0.8,
+    "n_estimators": 150,
+    "min_samples_split": 5,
+    "min_samples_leaf": 1,
+    "max_depth": 3,
+    "learning_rate": 0.1
+  },
+  "XGBoost": {
+    "subsample": 0.8,
+    "n_estimators": 100,
+    "max_depth": 4,
+    "learning_rate": 0.1
+  }
+}
